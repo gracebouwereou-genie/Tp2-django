@@ -1,0 +1,23 @@
+# Fichiers d'environnement virtuel
+venv/
+.venv/
+env/
+
+# Fichiers compilés Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de données locale (ne pas partager en production)
+*.sqlite3
+
+# Fichiers de configuration sensibles
+.env
+
+# Fichiers du système d'exploitation ou de l'éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
