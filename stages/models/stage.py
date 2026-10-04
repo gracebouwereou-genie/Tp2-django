@@ -7,3 +7,4 @@ class Stage(models.Model):
     enseignant = models.ForeignKey("EnseignantReferent", on_delete=models.PROTECT)
 
     sujet = models.CharField(max_length=200)
+    
