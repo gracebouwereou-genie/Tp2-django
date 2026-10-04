@@ -1,1 +1,0 @@
-from stages.models.entreprises import Entreprise

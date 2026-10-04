@@ -1,3 +1,2 @@
-from .entreprises import Entreprise
+from .entreprises import *
 
-__all__ = ["Entreprise"]

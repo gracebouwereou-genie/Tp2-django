@@ -1,10 +1,12 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Entreprise
+from stages.models.entreprises import Entreprise
+
 
 
 @admin.register(Entreprise)
 class EntrepriseAdmin(admin.ModelAdmin):
-    list_display = ["nom", "ville", "secteur"]
+    list_display = ["nom", "ville", "secteurs"]
     search_fields = ["nom", "ville"]
+

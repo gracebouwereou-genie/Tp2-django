@@ -10,7 +10,7 @@ class Entreprise(models.Model):
 
     nom = models.CharField(max_length=120, unique=True)
     ville = models.CharField(max_length=80)
-    secteur = models.CharField(max_length=80, choices=SECTEURS)
+    secteurs = models.CharField(max_length=80, choices=SECTEURS)
     email = models.EmailField()
 
     class Meta:
