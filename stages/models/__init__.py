@@ -6,3 +6,4 @@ from .tuteur_entreprise import *
 from .competence import *
 from .offre import *
 from .candidature import *
+from .stage import *
