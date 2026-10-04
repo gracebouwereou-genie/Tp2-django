@@ -1,5 +1,5 @@
 from django.db import models
-from .personnes import Personne
+from .personne import Personne
 
 class EnseignantReferent(Personne):
     pass

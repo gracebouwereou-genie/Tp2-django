@@ -1,6 +1,6 @@
-from .entreprises import *
-from .personnes import *
-from .etudiants import *
-from .enseignantReferents import *
-from .tuteurEntreprises import *
-
+from .entreprise import *
+from .personne import *
+from .etudiant import *
+from .enseignant_referent import *
+from .tuteur_entreprise import *
+from .competence import *
